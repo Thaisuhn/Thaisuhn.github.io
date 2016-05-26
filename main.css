@@ -1,18 +1,45 @@
-.hero{
-}
 body{
+  width: 100vw;
   height: 100vh;
-  max-width: 100vw;
-  background:url(main.jpg) rgba(0, 0, 0, 0.1);
-  background-size:cover;
-  background-repeat: no-repeat;
   overflow: hidden;
-
-}
-header ul{
   margin: 0;
   padding: 0;
+  border: 0;
+  background:url(new.jpg) rgba(0, 0, 0, 0.1);
+  background-size: cover;
 }
-header ul li{
+nav ul li{
   display: inline-block;
+  list-style-type: none;
+  background-color: rgba(0, 0, 255, 0.3);
+  width:33.33%;
+  height: 60px;
+  text-align: center;
+  padding: 25px;
+  margin: 0;
+  border:0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav ul{
+  margin:0;
+  padding:0;
+}
+#name{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.background{
+  background: rgba(0, 0, 0, 0.5);
+}
+#t,#y,#s,#o,.n,#g,#r,.e{
+  font-size: 2em;
+  color: white;
+  display: inline-block;
+  text-align: center;
 }

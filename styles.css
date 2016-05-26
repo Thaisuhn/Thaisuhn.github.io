@@ -1,17 +1,5 @@
-html,body{
-  font-family: "Helvetica Neue" , Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 30px;
-  color: #340;
-  text-shadow: 10px #111;
-}
-img {
-  border-radius: 30%;
-}
 .hero{
-  outline: 1px solid green;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 100vw;
+  background-image: url('main.jpg');
 }
